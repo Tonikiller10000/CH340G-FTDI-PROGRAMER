@@ -1,4 +1,6 @@
 # CH340G-FTDI-PROGRAMER
+
+## FTDI Programmer V2.0
 An UART microcontroller programmer using CH340G IC. UART stands for Universal Asynchronous reciver/transmiter Protocol and it works like this:
 The communication beggin with a start bit, continue with a data frame of 5 to 9 bits and an optional parity bit to check the sent data integrity, and ends with 1 or 2 stop bits.
 
@@ -48,7 +50,7 @@ The USB data pins connect dirrectly to each other (D+ to D+ and D- to D-)
 > When programming a device, the Tx pin of the programmer conect\`s to the device Rx pin and the Rx of the programmer to the Tx of the device.
 
 ## FTDI Programmer V2.1
-This is a new design witch includes an [3.3V voltage regulator](https://github.com/Tonikiller10000/CH340G-FTDI-PROGRAMER/blob/main/FtdiProgramer_Pictures/ss3.png) to be used on the 3.3V devices. It also has some other pins pulled out to be able to program stuff trouth the serial port. <br>
+This is a new design witch includes an [3.3V voltage regulator on the back of the board](https://github.com/Tonikiller10000/CH340G-FTDI-PROGRAMER/blob/main/FtdiProgramer_Pictures/ss3.png) to be used on the 3.3V devices programming. It also has some other pins pulled out to be able to program stuff trouth the serial port. <br>
 To select between the 5V and 3.3V modes, an pin jumper cap is used. 
 
 <img src="https://github.com/Tonikiller10000/CH340G-FTDI-PROGRAMER/blob/main/FtdiProgramer_Pictures/ss2.png" >
