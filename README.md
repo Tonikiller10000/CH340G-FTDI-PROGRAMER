@@ -35,16 +35,6 @@ The USB data pins connect dirrectly to each other (D+ to D+ and D- to D-)
   <tr><td>16</td>    <td>VCC</td>    <td>PowerSupply rail for the chip.</td>                            </tr>          
 </table>
 
-### FTDI Pins
-<table>
-  <tr><td>Name</td>  <td>Function</td>              </tr>
-  <tr><td>VCC</td>   <td>3.3V or 5V</td>            </tr>
-  <tr><td>GND</td>   <td>0V</td>                    </tr>          
-  <tr><td>Tx</td>    <td>Serial Data Transmit</td>  </tr>          
-  <tr><td>Rx</td>    <td>Serial Data Receive</td>   </tr>          
-  <tr><td>DTR</td>   <td>Data terminal ready</td>   </tr>          
-  <tr><td>CTS</td>   <td>Clear to send</td>         </tr>          
-</table>
 
 > [!NOTE]
 > When programming a device, the Tx pin of the programmer conect\`s to the device Rx pin and the Rx of the programmer to the Tx of the device.
