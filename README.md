@@ -44,22 +44,21 @@ The USB data pins connect dirrectly to each other (D+ to D+ and D- to D-)
   <tr><td>CTS</td>   <td>Clear to send</td>         </tr>          
 </table>
 
-### FTDI connections
+> [!NOTE]
+> When programming a device, the Tx pin of the programmer conect\`s to the device Rx pin and the Rx of the programmer to the Tx of the device.
+
+## FTDI Programmer V2.1
+This is a new design witch includes an [3.3V voltage regulator](https://github.com/Tonikiller10000/CH340G-FTDI-PROGRAMER/blob/main/FtdiProgramer_Pictures/ss3.png) to be used on the 3.3V devices. It also has some other pins pulled out to be able to program stuff trouth the serial port. <br>
+To select between the 5V and 3.3V modes, an pin jumper cap is used. 
+
+
+
 <table>
-  <tr><td>Master</td>   <td>Slave</td>  </tr>
-  <tr><td>VCC</td>      <td>VCC</td>    </tr>
-  <tr><td>GND</td>      <td>GND</td>    </tr>          
-  <tr><td>Tx</td>       <td>Rx</td>     </tr>          
-  <tr><td>Rx</td>       <td>Tx</td>     </tr>          
-  <tr><td>DTR</td>      <td>DTR</td>    </tr>          
-  <tr><td>CTS</td>      <td>CTS</td>    </tr>          
+  <tr>
+    <td><img src="https://github.com/Tonikiller10000/CH340G-FTDI-PROGRAMER/blob/main/FtdiProgramer_Pictures/ss2.png" ></td>
+    <td><img src="https://github.com/Tonikiller10000/CH340G-FTDI-PROGRAMER/blob/main/FtdiProgramer_Pictures/ss1.png" ></td>
+  </tr>        
 </table>
-
-
-<img src="https://github.com/Tonikiller10000/CH340G-FTDI-PROGRAMER/blob/main/FtdiProgramer_Pictures/ss1.png" >
-<img src="https://github.com/Tonikiller10000/CH340G-FTDI-PROGRAMER/blob/main/FtdiProgramer_Pictures/ss2.png" >
-<img src="https://github.com/Tonikiller10000/CH340G-FTDI-PROGRAMER/blob/main/FtdiProgramer_Pictures/ss3.png" >
-
 
 ## Links: 
 - CH340G Datasheet1: https://pdf1.alldatasheet.com/datasheet-pdf/view/1132618/ETC2/CH340G.html
