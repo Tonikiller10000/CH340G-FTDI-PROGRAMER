@@ -51,14 +51,9 @@ The USB data pins connect dirrectly to each other (D+ to D+ and D- to D-)
 This is a new design witch includes an [3.3V voltage regulator](https://github.com/Tonikiller10000/CH340G-FTDI-PROGRAMER/blob/main/FtdiProgramer_Pictures/ss3.png) to be used on the 3.3V devices. It also has some other pins pulled out to be able to program stuff trouth the serial port. <br>
 To select between the 5V and 3.3V modes, an pin jumper cap is used. 
 
+<img src="https://github.com/Tonikiller10000/CH340G-FTDI-PROGRAMER/blob/main/FtdiProgramer_Pictures/ss2.png" >
+<img src="https://github.com/Tonikiller10000/CH340G-FTDI-PROGRAMER/blob/main/FtdiProgramer_Pictures/ss1.png" >
 
-
-<table>
-  <tr>
-    <td><img src="https://github.com/Tonikiller10000/CH340G-FTDI-PROGRAMER/blob/main/FtdiProgramer_Pictures/ss2.png" ></td>
-    <td><img src="https://github.com/Tonikiller10000/CH340G-FTDI-PROGRAMER/blob/main/FtdiProgramer_Pictures/ss1.png" ></td>
-  </tr>        
-</table>
 
 ## Links: 
 - CH340G Datasheet1: https://pdf1.alldatasheet.com/datasheet-pdf/view/1132618/ETC2/CH340G.html
