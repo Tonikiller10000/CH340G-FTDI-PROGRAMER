@@ -59,7 +59,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "footprint_type_mismatch|173027500|100610000|a67451ab-360b-434d-a68d-7cc48a16d436|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|181377500|93285000|5f71ea7b-ec6b-40c2-9538-52ca981be965|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|173502500|100610000|a67451ab-360b-434d-a68d-7cc48a16d436|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|183750000|106100000|95ec98ae-ace1-46ac-a4e1-eeda64f58c0f|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -69,7 +74,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -87,7 +92,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -97,13 +102,13 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -606,7 +611,7 @@
   "sheets": [
     [
       "8ae5f60d-4350-4c08-8ceb-c103d3aafebe",
-      ""
+      "Root"
     ]
   ],
   "text_variables": {}
